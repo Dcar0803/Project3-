@@ -1,0 +1,15 @@
+{
+    "source": {
+      "include": ["./controllers", "./routes", "./models"]
+    },
+    "opts": {
+      "destination": "./docs", 
+      "recurse": true
+    },
+    "templates": {
+      "default": {
+        "outputSourceFiles": true 
+      }
+    }
+  }
+  
